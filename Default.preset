@@ -11,7 +11,7 @@ RequireAdmin
 ### Privacy Tweaks ###
 DisableTelemetry                # EnableTelemetry
 DisableWiFiSense                # EnableWiFiSense
-# DisableSmartScreen            # EnableSmartScreen
+DisableSmartScreen            # EnableSmartScreen
 DisableWebSearch                # EnableWebSearch
 DisableAppSuggestions           # EnableAppSuggestions
 DisableActivityHistory          # EnableActivityHistory
@@ -31,25 +31,25 @@ DisableWAPPush                  # EnableWAPPush
 # DisableRecentFiles            # EnableRecentFiles
 
 ### Security Tweaks ###
-# SetUACLow                     # SetUACHigh
+SetUACLow                     # SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
 DisableAdminShares              # EnableAdminShares
-# DisableSMB1                   # EnableSMB1
-# DisableSMBServer              # EnableSMBServer
+DisableSMB1                   # EnableSMB1
+DisableSMBServer              # EnableSMBServer
 # DisableLLMNR                  # EnableLLMNR
 # DisableNCSIProbe              # EnableNCSIProbe
 SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # SetUnknownNetworksPrivate     # SetUnknownNetworksPublic
 # DisableNetDevicesAutoInst     # EnableNetDevicesAutoInst
 # DisableFirewall               # EnableFirewall
-# HideDefenderTrayIcon          # ShowDefenderTrayIcon
-# DisableDefender               # EnableDefender
-# DisableDefenderCloud          # EnableDefenderCloud
+HideDefenderTrayIcon          # ShowDefenderTrayIcon
+DisableDefender               # EnableDefender
+DisableDefenderCloud          # EnableDefenderCloud
 # EnableCtrldFolderAccess       # DisableCtrldFolderAccess
 # EnableCIMemoryIntegrity       # DisableCIMemoryIntegrity
 # EnableDefenderAppGuard        # DisableDefenderAppGuard
 HideAccountProtectionWarn       # ShowAccountProtectionWarn
-# DisableDownloadBlocking       # EnableDownloadBlocking
+DisableDownloadBlocking       # EnableDownloadBlocking
 DisableScriptHost               # EnableScriptHost
 EnableDotNetStrongCrypto        # DisableDotNetStrongCrypto
 # EnableMeltdownCompatFlag      # DisableMeltdownCompatFlag
@@ -86,11 +86,11 @@ DisableAutorun                  # EnableAutorun
 DisableActionCenter             # EnableActionCenter
 DisableLockScreen               # EnableLockScreen
 # DisableLockScreenRS1          # EnableLockScreenRS1
-HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
-HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
+# HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
+# HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
 # DisableAeroShake              # EnableAeroShake
 DisableStickyKeys               # EnableStickyKeys
-ShowTaskManagerDetails          # HideTaskManagerDetails
+# ShowTaskManagerDetails          # HideTaskManagerDetails
 ShowFileOperationsDetails       # HideFileOperationsDetails
 # EnableFileDeleteConfirm       # DisableFileDeleteConfirm
 HideTaskbarSearch               # ShowTaskbarSearchIcon         # ShowTaskbarSearchBox
@@ -98,14 +98,14 @@ HideTaskView                    # ShowTaskView
 ShowSmallTaskbarIcons           # ShowLargeTaskbarIcons
 SetTaskbarCombineWhenFull       # SetTaskbarCombineNever        # SetTaskbarCombineAlways
 HideTaskbarPeopleIcon           # ShowTaskbarPeopleIcon
-ShowTrayIcons                   # HideTrayIcons
+# ShowTrayIcons                 HideTrayIcons
 DisableSearchAppInStore         # EnableSearchAppInStore
 DisableNewAppPrompt             # EnableNewAppPrompt
-# HideRecentlyAddedApps         # ShowRecentlyAddedApps
+HideRecentlyAddedApps         # ShowRecentlyAddedApps
 # HideMostUsedApps              # ShowMostUsedApps
 # SetControlPanelSmallIcons     # SetControlPanelLargeIcons     # SetControlPanelCategories
 DisableShortcutInName           # EnableShortcutInName
-# HideShortcutArrow             # ShowShortcutArrow
+HideShortcutArrow             # ShowShortcutArrow
 SetVisualFXPerformance          # SetVisualFXAppearance
 # EnableTitleBarColor           # DisableTitleBarColor
 # EnableDarkTheme               # DisableDarkTheme
@@ -118,7 +118,7 @@ SetVisualFXPerformance          # SetVisualFXAppearance
 
 ### Explorer UI Tweaks ###
 ShowKnownExtensions             # HideKnownExtensions
-ShowHiddenFiles                 # HideHiddenFiles
+# ShowHiddenFiles                 # HideHiddenFiles
 EnableNavPaneExpand             # DisableNavPaneExpand
 # EnableFldrSeparateProcess     # DisableFldrSeparateProcess
 # EnableRestoreFldrWindows      # DisableRestoreFldrWindows
@@ -127,26 +127,26 @@ EnableNavPaneExpand             # DisableNavPaneExpand
 HideSyncNotifications           # ShowSyncNotifications
 HideRecentShortcuts             # ShowRecentShortcuts
 SetExplorerThisPC               # SetExplorerQuickAccess
-HideQuickAccess                 # ShowQuickAccess
+# HideQuickAccess                 # ShowQuickAccess
 ShowThisPCOnDesktop             # HideThisPCFromDesktop
 # ShowUserFolderOnDesktop       # HideUserFolderFromDesktop
 # ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
-HideDesktopFromThisPC           # ShowDesktopInThisPC
+# HideDesktopFromThisPC           # ShowDesktopInThisPC
 # HideDesktopFromExplorer       # ShowDesktopInExplorer
-HideDocumentsFromThisPC         # ShowDocumentsInThisPC
+# HideDocumentsFromThisPC         # ShowDocumentsInThisPC
 # HideDocumentsFromExplorer     # ShowDocumentsInExplorer
-HideDownloadsFromThisPC         # ShowDownloadsInThisPC
+# HideDownloadsFromThisPC         # ShowDownloadsInThisPC
 # HideDownloadsFromExplorer     # ShowDownloadsInExplorer
-HideMusicFromThisPC             # ShowMusicInThisPC
+# HideMusicFromThisPC             # ShowMusicInThisPC
 # HideMusicFromExplorer         # ShowMusicInExplorer
-HidePicturesFromThisPC          # ShowPicturesInThisPC
+# HidePicturesFromThisPC          # ShowPicturesInThisPC
 # HidePicturesFromExplorer      # ShowPicturesInExplorer
-HideVideosFromThisPC            # ShowVideosInThisPC
+# HideVideosFromThisPC            # ShowVideosInThisPC
 # HideVideosFromExplorer        # ShowVideosInExplorer
 Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
-# Hide3DObjectsFromExplorer     # Show3DObjectsInExplorer
+Hide3DObjectsFromExplorer     # Show3DObjectsInExplorer
 # HideIncludeInLibraryMenu      # ShowIncludeInLibraryMenu
-# HideGiveAccessToMenu          # ShowGiveAccessToMenu
+HideGiveAccessToMenu          # ShowGiveAccessToMenu
 # HideShareMenu                 # ShowShareMenu
 # DisableThumbnails             # EnableThumbnails
 DisableThumbnailCache           # EnableThumbnailCache
@@ -163,8 +163,8 @@ DisableAdobeFlash               # EnableAdobeFlash
 DisableEdgePreload              # EnableEdgePreload
 DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
 DisableIEFirstRun               # EnableIEFirstRun
-# UninstallMediaPlayer          # InstallMediaPlayer
-# UninstallInternetExplorer     # InstallInternetExplorer
+UninstallMediaPlayer          # InstallMediaPlayer
+UninstallInternetExplorer     # InstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
 # UninstallPowerShellV2         # InstallPowerShellV2
 # InstallLinuxSubsystem         # UninstallLinuxSubsystem
